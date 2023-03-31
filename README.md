@@ -19,7 +19,7 @@ Recommended to install nvidia drivers.
 
 https://askubuntu.com/a/868209
 
->Insert follow lines to the blacklist.conf:
+>Insert follow lines to the /etc/modprobe.d/blacklist.conf:
 ```
 blacklist nouveau
 blacklist lbm-nouveau
