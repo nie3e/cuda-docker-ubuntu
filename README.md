@@ -11,7 +11,7 @@ Do not install docker with ubuntu.
 ## Step 1 - install dev software
 ```
 sudo apt-get update
-sudo apt-get install gcc make docker.io
+sudo apt-get install gcc make docker.io dkms
 ```
 
 ## Step 2 - disable Nouveau kernel driver
